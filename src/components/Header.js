@@ -16,7 +16,7 @@ function Header() {
   width: 100%;
   padding: 0 200px;
   background-color: #fffefc;
-  z-index: 100;
+  z-index: 1;
 `;
 
     const navigationStyles = css`
@@ -62,15 +62,15 @@ span {
         <div css={navigationWrapStyles}>
             <div css={navigationStyles}>
 
-            <div>
-           
-            <img
-                alt="Notion app logo"
-                src="https://www.notion.so/cdn-cgi/image/w=640,q=100/front-static/shared/icons/notion-app-icon-3d.png"
-                width="80px"
-              />
-            
-          </div>
+                <div>
+
+                    <img
+                        alt="Notion app logo"
+                        src="https://www.notion.so/cdn-cgi/image/w=640,q=100/front-static/shared/icons/notion-app-icon-3d.png"
+                        width="80px"
+                    />
+
+                </div>
 
 
                 <nav>

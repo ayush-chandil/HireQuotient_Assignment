@@ -20,13 +20,15 @@ import Snowflake from "./images/snowflake.png";
 import Idea from "./images/idea.webp";
 import List from "./images/list.webp";
 
+
+
+
+
+
 const appStyles = css`
  
   min-height: 100vh;
 `;
-
-
-
 
 const mediumButton = css`
   border-radius: 3px;
@@ -217,16 +219,15 @@ function App() {
               Notion is the connected workspace where better, faster work happens.
             </h2>
             <button css={mediumButton}>Try Notion free</button>
-            
-              <img style={{width:"100%",height:"300px",objectFit:"contain",margin:"auto"}} alt="hero" src={Hero} />
 
-              <Tags/>
-            
+            <img style={{ width: "100%", height: "300px", objectFit: "contain", margin: "auto" }} alt="hero" src={Hero} />
+
+           </div>
           
-           
-          </div>
 
         </section>
+
+        <Tags />
 
         <section css={styledSection}>
           <div css={secondSectionLeft}>
@@ -243,37 +244,22 @@ function App() {
         </section>
 
         <div css={logosSectionStyled}>
-              <span>Millions run on Notion every day</span>
-              <div css={logosWrapperStyles}>
-                <img alt="doordash logo" src={Doordash} />
-                <img alt="pixar logo" src={Pixar} />
-               <img alt="nike logo" src={Nike} />
-                <img alt="amazon logo" src={Amazon} />
-                <img alt="ge" src={GE}/>
-                <img alt="uber" src={Uber}/>
-                <img alt="Plaid" src={Plaid}/>
-                <img alt="toyota" src={Toyota}/>
-                <img alt="snowflake" src={Snowflake}/>
-              </div>
-            </div>
-        {/* <section css={styledSection}>
-          <div css={secondSectionLeft}>
-            <h3> Never ask “What’s the context?” again</h3>
-            <p>
-              Stale wikis aren't helpful. Neither are floating docs. In Notion,
-              your daily work and knowledge live side by side — so you never
-              lose context.
-            </p>
+          <span>Millions run on Notion every day</span>
+          <div css={logosWrapperStyles}>
+            <img alt="doordash logo" src={Doordash} />
+            <img alt="pixar logo" src={Pixar} />
+            <img alt="nike logo" src={Nike} />
+            <img alt="amazon logo" src={Amazon} />
+            <img alt="ge" src={GE} />
+            <img alt="uber" src={Uber} />
+            <img alt="Plaid" src={Plaid} />
+            <img alt="toyota" src={Toyota} />
+            <img alt="snowflake" src={Snowflake} />
           </div>
-          <div css={imageContainer}>
-            <img
-              alt="meeting notes functionality"
-              src="https://www.notion.so/cdn-cgi/image/w=3840,q=100/front-static/pages/product/value-props/context-tile.png"
-            />
-          </div>
-        </section> */}
+        </div>
 
-        <hr />
+
+
 
         <section>
           <div css={testimonialsSection}>
@@ -284,7 +270,7 @@ function App() {
               </div>
             </div>
 
-            
+
             <div>
               <img
                 alt="team collaborating"
@@ -292,16 +278,16 @@ function App() {
               />
             </div>
           </div>
-          
-          <img style={{width:"100%"}} alt="list" src={List}/>
-          <img style={{width:"50%"}} alt="idea" src={Idea}/>
-         
-          
 
-          
+          <img style={{ width: "100%" }} alt="list" src={List} />
+          <img style={{ width: "50%" }} alt="idea" src={Idea} />
+
+
+
+
         </section>
 
-        <hr />
+
 
         <section css={centeredSection}>
           <div>
